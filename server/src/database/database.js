@@ -34,6 +34,10 @@ class DataBase {
   GET_ACCOUNT = (username) => {
     return this.Accounts[username];
   };
+
+  GET_POSTS = (index, amount) => {
+    return Object.values(this.Posts).slice(index, index + amount);
+  };
 }
 
 module.exports = DataBase;

@@ -24,3 +24,13 @@ app.get("/login/:username/:password", (req, res, next) => {
     res.json({ response: { data: null, status: "account does not exist" } });
   }
 });
+
+app.get("/posts/:amount", (req, res, next) => {
+  const Posts = DB.GET_POSTS(0, parseInt(req.params.amount));
+  res.json(Posts);
+});
+
+app.get("/post/:id", (req, res, next) => {
+  const Posts = DB.GET_POST(req.params.id);
+  res.json(Posts);
+});

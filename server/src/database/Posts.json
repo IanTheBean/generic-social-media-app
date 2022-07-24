@@ -1,1 +1,22 @@
-{}
+{
+  "0": {
+    "title": "welcome to da party",
+    "content": "da party is litty",
+    "author": "the host"
+  },
+  "1": {
+    "title": "hello world",
+    "content": "hello world",
+    "author": "dev100"
+  },
+  "2": {
+    "title": "wheezy outa here",
+    "content": "wheezy f made it and wheezy produced it",
+    "author": "the drizzy"
+  },
+  "3": {
+    "title": "many men",
+    "content": "wish death upon me",
+    "author": "half a dollar"
+  }
+}
